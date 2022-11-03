@@ -1,0 +1,7 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="^r1M3(^yE7w3qs+|zc61">receivedString</variable></variables><block type="pxt-on-start" id="=t+mPS;N5b?Dcuw,0@PF" x="0" y="0"><statement name="HANDLER"><block type="radio_set_group" id="=c:(Xl9;V_[OoWp:j!j2"><value name="ID"><shadow type="math_number_minmax" id="ohEM}(ZPcW0.*b@Ah4Qs"><mutation min="0" max="255" label="Number" precision="0"></mutation><field name="SLIDER">55</field></shadow></value></block></statement></block><block type="radio_on_string" id="e!=Y@ajY-m#|8[+83Xgb" x="-12" y="155"><field name="HANDLER_receivedString" id="^r1M3(^yE7w3qs+|zc61">receivedString</field><statement name="HANDLER"><block type="serial_writeline" id="wmu3)03R,yy_NwD|hZzB"><value name="text"><shadow type="text"><field name="TEXT"></field></shadow><block type="variables_get" id="@a;DAqb-t1buH,%/qXAU"><field name="VAR" id="^r1M3(^yE7w3qs+|zc61">receivedString</field></block></value><next><block type="basic_show_icon" id="?GzvBDK-eaX]:h%P6P?$"><field name="i">IconNames.Square</field><next><block type="basic_show_icon" id="Lb;#A`mrJ_AA/U^uRALT"><field name="i">IconNames.SmallSquare</field><next><block type="device_show_leds" id="XyNcrOf8?^Hm2#shRr^+"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_clear_display" id="+w{l}(a?mBDj*d?}rok9"></block></next></block></next></block></next></block></next></block></statement></block></xml>
